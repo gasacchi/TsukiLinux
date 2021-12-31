@@ -20,6 +20,12 @@
 - fish (friendly interactive shell)
 - xf86-video-intel (intel video driver)
 
+# XORG compability
+- xorg-wayland (run xorg app in wayland)
+- xorg-xlsclients (list the window that run on XWayland)
+- qt5-wayland (or qt6-wayland for qt compability)
+- glfw-wayland (opengl compability)
+
 # AUR helper
 - yay (archlinux user repo helper)
 
@@ -31,7 +37,10 @@
 - wofi (app launcher dmenu alternative)
 - waybar (sway status bar)
 - light (backlight tools)
+- libnotify (notification)
 - mako (notification for wayland)
+- mpvpaper (live mp4 wallpaper)
+- wl-clipboard (copy paste)
 
 # Sound 
 - pulseaudio (audio tools)
@@ -47,23 +56,33 @@
 - alacritty (terminal emulator)
 - starship (prompt shell,include ttf-iosevka-nerd as deps)
 - code-minimap-bin (minimap for neovim)
-- dotnet-sdk (.NET sdk mainly for fsharp)
 - nodejs (nodejs for webdev and neovim)
 - yarn (node package manager alternative)
-- goneovim-bin (neovim gui with more features)
+- neovim-nightly-bin (neovim text editor)
+- neovide-git (neovim gui)
 
 # Daily Program
 - brave-bin (browser)
 - discord (chat)
+- mpv
+- virtualbox
 
 # Terminal Utility
 - bat (cat alternative)
 - fd (find alternative)
 - exa (ls alternative)
+- dust (disk usage utility)
+- duf (disk usage/free utility)
 - ripgrep (grep alternative)
 - tokei (line of code counter)
 - unrar (unpack rar file)
 - unzip (unpack zip file)
 - wget (download file tools)
 - lolcat (rainbow cat)
+- nyancat (display nyancat)
+- pfetch (neofetch alternative)
+- git-delta (show pretty git diff)
+- hyperfine (benchmark test)
+- glow-bin (markdown previewer)
+
 
