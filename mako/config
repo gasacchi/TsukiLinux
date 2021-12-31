@@ -1,0 +1,24 @@
+font=Iosevka Nerd Font 9
+background-color=#0D111780
+text-color=#7B848DFF
+width=300
+height=100
+border-size=1
+border-color=#0D111780
+
+[urgency=critical]
+background-color=#E06D6680
+text-color=#0D1117FF
+border-color=#E06D66FF
+
+[urgency=normal]
+background-color=#E06D6680
+text-color=#8DB7DAFF
+border-color=#E06D66FF
+
+[category=Sway]
+background-color=#0D111780
+text-color=#8DB7DAFF
+border-color=#7B848DFF
+
+
