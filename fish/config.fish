@@ -3,7 +3,7 @@ set fish_greeting
 # Yarn
 set -gx PATH "$HOME/.yarn/bin:$PATH"
 set -gx PATH "$HOME/.local/bin:$PATH"
-set -gx PATH "$HOME/.dotnet/tools:$PATH"
+set -gx PATH "$HOME/.local/scripts:$PATH"
 set -gx NVIM_ROOT "$HOME/.config/nvim"
 
 
@@ -12,9 +12,6 @@ alias ls='exa'
 alias ll="ls -l"
 alias la="ls -a"
 alias lla="ls -la"
-
-# System Pacman & Yay
-
 
 # editor
 alias v='nvim'
