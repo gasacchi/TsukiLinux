@@ -1,0 +1,46 @@
+window {
+    background-color: rgba(9,12,16,0.5);
+    border-radius: 5px;
+    font-family: Ioseva\ Nerd\ Font;
+}
+
+#input {
+    margin: 5px;
+    outline-style:none;
+    color: #8DB7DA;
+    background-color: rgba(13,17,23,0.5);
+}
+
+#input image:first-child {
+    /*remove search icon*/
+    margin-left: -100px;
+}
+
+#inner-box {
+    margin: 5px;
+    padding: 5px;
+    color: #7B848D;
+    background-color: rgba(9,12,16,0.5);
+}
+
+#outer-box {
+    margin: 5px;
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#text {
+    margin: 5px;
+}
+
+#entry:selected {
+    background-color: #FBA356;
+}
+
+#entry:selected label, #entry:selected image {
+    color: rgb(9,12,16);
+    background-color: #FBA356;
+    border: 0px;
+}
