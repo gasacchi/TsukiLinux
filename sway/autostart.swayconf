@@ -1,0 +1,6 @@
+
+# Set wallpaper
+# output * bg /home/gasacchi/Pictures/wallnew.png fill
+exec ~/.local/scripts/wallpaper
+exec ~/.local/bin/tsukivim
+

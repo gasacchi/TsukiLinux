@@ -1,0 +1,14 @@
+#######################################
+# TsukiLinux Sway Config
+# author: gasacchi <6asacchi@gmail.com>
+# license: MIT
+#######################################
+
+
+include ~/.config/sway/autostart.swayconf
+include ~/.config/sway/idle.swayconf
+include ~/.config/sway/input.swayconf
+include ~/.config/sway/keymaps.swayconf
+include ~/.config/sway/display.swayconf
+include ~/.config/sway/bar.swayconf
+include /etc/sway/config.d/*
