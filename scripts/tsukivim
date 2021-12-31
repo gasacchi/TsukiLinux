@@ -1,0 +1,3 @@
+#!/bin/bash
+
+neovide --multigrid -- --startuptime /tmp/nvim-startuptime
