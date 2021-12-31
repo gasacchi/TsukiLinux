@@ -1,0 +1,1 @@
+/home/gasacchi/.dev/github/gsclinux/.config/fish
