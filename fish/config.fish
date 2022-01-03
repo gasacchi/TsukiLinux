@@ -14,7 +14,7 @@ alias la="ls -a"
 alias lla="ls -la"
 
 # editor
-alias v='nvim'
+alias v="nvim --startuptime $HOME/.config/nvim/startuptime.log"
 
 # Tmux
 alias tm='tmux'
