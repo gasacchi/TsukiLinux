@@ -60,7 +60,10 @@
 - yarn (node package manager alternative)
 - neovim-nightly-bin (neovim text editor)
 - neovide-git (neovim gui)
+- rustup (rust toolchain)
+- rust-analyzer (lsp support for rust)
 
+    
 # Daily Program
 - brave-bin (browser)
 - discord (chat)
