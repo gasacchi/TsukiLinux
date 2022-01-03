@@ -1,5 +1,5 @@
 window {
-    background-color: rgba(9,12,16,0.5);
+    background-color: rgba(22,22,29,0.5);
     border-radius: 5px;
     font-family: Ioseva\ Nerd\ Font;
 }
@@ -7,20 +7,18 @@ window {
 #input {
     margin: 5px;
     outline-style:none;
-    color: #8DB7DA;
-    background-color: rgba(13,17,23,0.5);
+    color: rgba(200, 192, 147, 1);
+    background-color: rgba(54,54,70,0.5);
 }
 
 #input image:first-child {
-    /*remove search icon*/
     margin-left: -100px;
 }
 
 #inner-box {
     margin: 5px;
     padding: 5px;
-    color: #7B848D;
-    background-color: rgba(9,12,16,0.5);
+    color: #717C7C;
 }
 
 #outer-box {
@@ -36,11 +34,11 @@ window {
 }
 
 #entry:selected {
-    background-color: #FBA356;
+    background-color:#FFA066;
 }
 
 #entry:selected label, #entry:selected image {
-    color: rgb(9,12,16);
-    background-color: #FBA356;
+    color: rgba(22,22,29,1);
+    background-color: rgba(255, 160, 102, 0.5);
     border: 0px;
 }
