@@ -55,7 +55,6 @@
 # Development support
 - alacritty (terminal emulator)
 - starship (prompt shell,include ttf-iosevka-nerd as deps)
-- code-minimap-bin (minimap for neovim)
 - nodejs (nodejs for webdev and neovim)
 - yarn (node package manager alternative)
 - neovim-nightly-bin (neovim text editor)
