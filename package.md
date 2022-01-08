@@ -61,6 +61,8 @@
 - neovide-git (neovim gui)
 - rustup (rust toolchain)
 - rust-analyzer (lsp support for rust)
+- fennel (fennel programming language)
+- fnlfmt-git (fennel formatter)
 
     
 # Daily Program
