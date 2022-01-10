@@ -3,4 +3,5 @@
 # output * bg /home/gasacchi/Pictures/wallnew.png fill
 exec set-wallpaper
 exec tsukivim
+exec battery-notif -n -t 1m -L 30 -l 20 
 

@@ -7,8 +7,11 @@ border-size=1
 border-color=#0D111780
 
 [urgency=critical]
-background-color=#0D111780
-text-color=#FF5D6280
+# background-color=#0D111780
+# text-color=#FF5D6280
+# border-color=#FF5D6280
+background-color=#FF5D6280
+text-color=#FFFFFFFF
 border-color=#FF5D6280
 
 [urgency=normal]
