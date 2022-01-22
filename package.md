@@ -57,14 +57,25 @@
 - starship (prompt shell,include ttf-iosevka-nerd as deps)
 - nodejs (nodejs for webdev and neovim)
 - yarn (node package manager alternative)
-- neovim-nightly-bin (neovim text editor)
+- neovim-git (neovim text editor)
 - neovide-git (neovim gui)
 - rustup (rust toolchain)
 - rust-analyzer (lsp support for rust)
 - fennel (fennel programming language)
-- fnlfmt-git (fennel formatter)
-
     
+## Tauri gui development
+- webkit2gtk
+- base-devel (installed)
+- curl (installed)
+- wget (installed)
+- openssl (installed)
+- gtk3 (installed)
+- libappindicator-gtk3 (installed) (opt: use for system tray feature)
+- librsvg (installed) (opt: use for bundle AppImage)
+- appmenu-gtk-module
+- patchelf (opt: use for bundle AppImage)
+- libvips 
+ 
 # Daily Program
 - brave-bin (browser)
 - discord (chat)

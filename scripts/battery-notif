@@ -141,7 +141,7 @@ show_popup() {
 }
 
 show_nagbar(){
-    swaymsg "exec swaynag -m \"${1}\""
+    swaymsg "exec swaynag -m \"${1}\" --background '#D15412'"
 }
 
 show_notify(){
