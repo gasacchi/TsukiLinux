@@ -99,5 +99,6 @@
 - git-delta (show pretty git diff)
 - hyperfine (benchmark test)
 - glow-bin (markdown previewer)
+- bottom (htop alt)
 
 
