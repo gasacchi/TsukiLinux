@@ -81,6 +81,7 @@
 - discord (chat)
 - mpv
 - virtualbox
+- android-file-transfer
 
 # Terminal Utility
 - bat (cat alternative)
