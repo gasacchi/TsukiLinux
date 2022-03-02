@@ -99,7 +99,7 @@
 - pfetch (neofetch alternative)
 - git-delta (show pretty git diff)
 - hyperfine (benchmark test)
-- glow-bin (markdown previewer)
+- glow (markdown previewer)
 - bottom (htop alt)
 
 
