@@ -101,5 +101,4 @@
 - hyperfine (benchmark test)
 - glow (markdown previewer)
 - bottom (htop alt)
-
-
+- zellij (tmux alt)
