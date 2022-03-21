@@ -67,6 +67,7 @@
 - kicad
 - kicad-library 
 - kicad-library-3d
+- freecad
     
 ## Tauri gui development
 - webkit2gtk
