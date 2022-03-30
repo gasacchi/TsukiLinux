@@ -62,12 +62,14 @@
 - rustup (rust toolchain)
 - rust-analyzer (lsp support for rust)
 - fennel (fennel programming language)
+- filezilla
 
 # Keyboard Development
 - kicad
 - kicad-library 
 - kicad-library-3d
 - freecad
+- librecad
     
 ## Tauri gui development
 - webkit2gtk
