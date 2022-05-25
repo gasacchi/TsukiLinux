@@ -21,7 +21,7 @@
 - xf86-video-intel (intel video driver)
 
 # XORG compability
-- xorg-wayland (run xorg app in wayland)
+- xorg-xwayland (run xorg app in wayland)
 - xorg-xlsclients (list the window that run on XWayland)
 - qt5-wayland (or qt6-wayland for qt compability)
 - glfw-wayland (opengl compability)
@@ -42,6 +42,13 @@
 - mpvpaper (live mp4 wallpaper)
 - wl-clipboard (copy paste)
 
+# Desktop Environment
+- xorg
+- gnome
+- gnome-tweaks
+- chrome-gnome-shell
+- kmonad-bin
+    
 # Sound 
 - pulseaudio (audio tools)
 - pulseaudio-alsa (alsa support for pulseaudio)
@@ -57,8 +64,7 @@
 - starship (prompt shell,include ttf-iosevka-nerd as deps)
 - nodejs (nodejs for webdev and neovim)
 - yarn (node package manager alternative)
-- neovim-git (neovim text editor)
-- neovide-git (neovim gui)
+- helix (text editor)
 - rustup (rust toolchain)
 - rust-analyzer (lsp support for rust)
 - fennel (fennel programming language)
@@ -85,11 +91,12 @@
 - libvips 
  
 # Daily Program
-- brave-bin (browser)
+- brave-beta-bin (browser)
 - discord (chat)
 - mpv
 - virtualbox
 - android-file-transfer
+- xclicker
 
 # Terminal Utility
 - bat (cat alternative)

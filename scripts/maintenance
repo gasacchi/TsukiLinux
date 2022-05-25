@@ -1,0 +1,17 @@
+#!/bin/sh
+echo "Updating Arch linux repo mirrorlist.."
+doas reflector --latest 5 --protocol https --country Indonesia,Singapore --save /etc/pacman.d/mirrorlist
+echo "Mirrorlist Updated"
+
+sleep 1
+echo "Performing System Update.."
+yay -Syyu
+
+
+echo "Cleaning the System.."
+sleep 1
+doas system_cleaning
+
+echo "Rebooting..."
+sleep 2
+reboot

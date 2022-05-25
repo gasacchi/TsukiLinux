@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-mpvpaper -o "no-audio --loop-playlist shuffle" eDP-1 $HOME/Pictures/live/我妻由乃-gasai-yuno-anime-live-wallpaper.mp4
+mpvpaper -o "no-audio --loop-playlist shuffle" eDP-1 $HOME/Pictures/live/julianne-stingray-smoking.mp4

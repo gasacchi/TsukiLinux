@@ -1,7 +1,0 @@
-
-# Set wallpaper
-# output * bg /home/gasacchi/Pictures/wallnew.png fill
-exec set-wallpaper
-exec tsukivim
-exec battery-notif -N -t 1m -L 30 -l 20 
-

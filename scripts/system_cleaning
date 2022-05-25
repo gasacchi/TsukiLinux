@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# Clean cache directory
+echo "Cleaning cache directory.."
+rm ~/.cache/* -fr
+echo "Cache directory cleaned!"
+
+# Clean unnecessary packages
+pkg_list=$(pacman -Qdtq | wc -l)
+
+if [[ $pkg_list -eq 0 ]]
+then
+  echo "Unnecessary packages already cleaned"
+else
+  echo "Cleaning $pkg_list packages"
+  pacman -Rsn $(pacman -Qdtq)
+  echo "$pkg_list Unnecessary packages cleaned"
+fi
+
+# Clean pacman cache
+cache_list=$(ls /var/cache/pacman/pkg/ | wc -l)
+if [[ $cache_list -gt 0 ]]
+then
+  echo "Cleaning $cache_list pacman cache"
+  yes | pacman -Scc
+  echo "$cache_list cache cleaned"
+else
+  echo "Pacman cache already cleaned"
+fi
+
+# Clean journal log
+journal_list=$(ls /var/log/journal/ | wc -l)
+if [[ $journal_list -gt 0 ]]
+then
+  echo "Cleaning journal log"
+  rm /var/log/journal/* -fr
+  echo "Journal log cleaned"
+else
+  echo "Journal already cleaned"
+fi
