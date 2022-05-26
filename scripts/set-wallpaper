@@ -1,3 +1,0 @@
-#!/usr/bin/bash
-
-mpvpaper -o "no-audio --loop-playlist shuffle" eDP-1 $HOME/Pictures/live/julianne-stingray-smoking.mp4

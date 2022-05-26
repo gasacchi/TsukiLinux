@@ -58,7 +58,9 @@
 - noto-fonts (noto font)
 - noto-fonts-cjk (support for Japanese fonts)
 - noto-fonts-emoji (support for emoji)
+- nerd-fonts-jetbrains-mono (jetbrains mono with ligature support)
 
+    
 # Development support
 - alacritty (terminal emulator)
 - starship (prompt shell,include ttf-iosevka-nerd as deps)
