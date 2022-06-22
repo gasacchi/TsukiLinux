@@ -14,14 +14,7 @@ alias la="ls -a"
 alias lla="ls -la"
 
 # editor
-alias v="nvim --startuptime $HOME/.config/nvim/startuptime.log"
-
-# Tmux
-alias tm='tmux'
-alias tmn='tmux new-session -s'
-alias tmk='tmux kill-session -t'
-alias tml='tmux ls'
-alias tma='tmux attach-session -t'
+alias h="helix"
 
 # Command Line utility
 alias cp='cp -v'
@@ -32,7 +25,7 @@ alias top='btm'
 alias loc='tokei'
 alias cat='bat'
 alias sed='sd'
-alias lgit='lazygit'
+
 
 alias anime='cd ~/xxx/.anime/.safe'
 
